@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="java.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap" rel="stylesheet">
+  <title>Portafolio leonardo</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="u-wrapper">
+      <div class="header-content">
+        <img height="40" src="images/no-te-rindas.png" alt="">
+      </div>
+    </div>
+  </header>
+  <section class="hero">
+    <div class="u-wrapper">
+      <div class="hero-content">
+        <div class="hero-image">
+          <img src="images/leonardo.jpg" alt="" id="leonardo">
+        </div>
+        <div class="hero-description">
+          <h1 class="h1">
+            <span class="h3">¡Hola a todos!</span>
+            <span>Soy Leonardo</span>
+          </h1>
+          <p>Soy un estudiante de valle Grande, entrando al mundo de la programación, <br>
+            llevando acabo números proyectos importantes con tan solo 6 meses <br>
+            de experiencia.
+          </p>
+          <div class="social">
+            <a href="https://wa.me/+51954047989"> <i class="social-item">
+                <img src="images/icons/phone.svg" alt="">
+              </i></a>
+            <a href="https://github.com/LeonardoHuamanMezarina"> <i class="social-item">
+                <img src="images/icons/github.svg" alt="">
+              </i></a>
+            <a href="https://www.instagram.com/"> <i class="social-item">
+                <img src="images/icons/instagram.svg" alt="">
+              </i></a>
+            <a href="https://x.com/?lang=es&mx=2"> <i class="social-item">
+                <img src="images/icons/twitter.svg" alt="">
+              </i></a>
+          </div>
+        </div>
+        <section class="skills">
+          <h2>Mis Especialidades</h2>
+          <div class="skill-card">
+            <img src="images/html.png" alt="HTML">
+            <div class="skill-info">
+              <h3>HTML</h3>
+              <p>HTML es la base de cualquier página web. Uso HTML5 para crear estructuras semánticas y accesibles.</p>
+            </div>
+          </div>
+          <div class="skill-card">
+            <img src="images/css.png" alt="CSS">
+            <div class="skill-info">
+              <h3>CSS</h3>
+              <p>CSS me permite diseñar y darle estilo a las páginas web. Utilizo Flexbox, Grid y animaciones para crear diseños modernos y responsivos.</p>
+            </div>
+          </div>
+          <div class="skill-card">
+            <img src="images/javascript.png" alt="JavaScript">
+            <div class="skill-info">
+              <h3>JavaScript</h3>
+              <p>JavaScript es esencial para agregar interactividad. Conozco frameworks como React y Vue.js para construir aplicaciones dinámicas.</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </section>
+  <section class="pre-projects">
+    <div class="u-wrapper">
+      <div class="pre-projects-content">
+        <p>A lo largo de mi estudio, he tenido el privilegio de trabajar en proyectos retadores e increíbles</p>
+        <p>
+          Aquí hay algunos que me gustaría compartir.
+        </p>
+        <img src="images/icons/arrow-down.svg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section class="project-list">
+    <div class="u-wrapper">
+      <div class="project-list-content">
+        <article class="project">
+          <div class="project-description">
+            <h2 class="project-title tag">
+              <span>
+                SmartCity - ODS
+              </span>
+            </h2>
+            <p class="project-copy">
+              Accede a más de 120 proyectos que te ayudarán a mejorar
+              tus habilidades como desarrollador Front-End.
+            </p>
+            <div class="project-cta">
+              <button class="btn secondary full">
+                <i>
+                  <img src="images/icons/github.svg" alt="">
+                </i>
+                <span>
+                  <a href="https://github.com/vallegrande/AS241S2_T14_ODS11/tree/develop">Ver código</a>
+                </span>
+              </button>
+              <button class="btn primary full"><a href="http://127.0.0.1:5501/index.html">Ver Proyecto</a></button>
+            </div>
+          </div>
+          <div class="project-image">
+            <img src="images/proyecto.png" alt="">
+          </div>
+        </article>
+        <article class="testimony">
+          <div class="testimony-image">
+            <img src="images/leonidas-esteban.png" alt="">
+          </div>
+          <p class="testimony-copy">
+            "Leonardo ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo sobre el ODS. Lo que nos
+            hubiera llevado 6 meses solo les
+            llevó 1,5 meses ".
+          </p>
+          <p class="testimony-title">
+            Gabriel / COFUNDADOR Y CEO Alitas - Flood
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="u-wrapper">
+      <div class="contact-content">
+
+        <form id="form" action="" class="form">
+          <h3 class="tag"><span>Contactanos</span></h3>
+          <label for="name">Nombre Completo <span>*</span></label>
+          <input name="name" required type="text" id="name" placeholder="Nombre">
+          <label for="email">Correo electrónico <span>*</span></label>
+          <input name="email" type="text" id="email" required placeholder="correo@gmail.com">
+          <label for="message">Mensaje</label>
+          <textarea id="message" name="message" id="" cols="30" rows="10"></textarea>
+          <button type="button" class="btn primary full">enviar mensaje</button>
+        </form>
+        <a href="#" id="trucazo">jojojoj</a>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
